@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureChaosMonkey", "AzureChaosMonkey\AzureChaosMonkey.csproj", "{A49C4A49-F619-4310-9EBE-5CB2C5FFAEB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureChaosMonkey.Domain", "AzureChaosMonkey.Domain\AzureChaosMonkey.Domain.csproj", "{F9F24BD5-7E0E-4135-B091-4E356C512D87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureChaosMonkey.Infrastructure", "AzureChaosMonkey.Infrastructure\AzureChaosMonkey.Infrastructure.csproj", "{52D0B5BC-A76D-4A8F-A556-E9A09FA28E8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{A49C4A49-F619-4310-9EBE-5CB2C5FFAEB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A49C4A49-F619-4310-9EBE-5CB2C5FFAEB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A49C4A49-F619-4310-9EBE-5CB2C5FFAEB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9F24BD5-7E0E-4135-B091-4E356C512D87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9F24BD5-7E0E-4135-B091-4E356C512D87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9F24BD5-7E0E-4135-B091-4E356C512D87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9F24BD5-7E0E-4135-B091-4E356C512D87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52D0B5BC-A76D-4A8F-A556-E9A09FA28E8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52D0B5BC-A76D-4A8F-A556-E9A09FA28E8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52D0B5BC-A76D-4A8F-A556-E9A09FA28E8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52D0B5BC-A76D-4A8F-A556-E9A09FA28E8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
