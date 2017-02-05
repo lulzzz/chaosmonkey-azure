@@ -23,7 +23,7 @@ namespace AzureChaosMonkey.Infrastructure.Logging
 
         public void Log(string message)
         {
-            var logText = string.Concat(_timeProvider.UtcNow, " - ", message);
+            var logText = string.Concat($"{_timeProvider.UtcNow} UTC", " - ", message);
             _logStream?.WriteLine(logText);
         }
 

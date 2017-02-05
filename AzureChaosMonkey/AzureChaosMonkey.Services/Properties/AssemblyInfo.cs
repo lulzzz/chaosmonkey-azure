@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("AzureChaosMonkey.Domain")]
+[assembly: AssemblyTitle("AzureChaosMonkey.Services")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("AzureChaosMonkey.Domain")]
+[assembly: AssemblyProduct("AzureChaosMonkey.Services")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("f9f24bd5-7e0e-4135-b091-4e356c512d87")]
+[assembly: Guid("c50cd112-2a32-45d4-b7b1-ed3e30c64a32")]
 
 // Version information for an assembly consists of the following four values:
 //

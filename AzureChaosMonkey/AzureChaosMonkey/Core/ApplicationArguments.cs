@@ -1,7 +1,14 @@
-﻿namespace AzureChaosMonkey.Core
+﻿using AzureChaosMonkey.Services;
+
+namespace AzureChaosMonkey.Core
 {
     public class ApplicationArguments
     {
-        public string LogFileName { get; set; }     
+        public ApplicationArguments()
+        {
+            Settings = new Settings();
+        }
+
+        public Settings Settings { get; set; }  
     }
 }
